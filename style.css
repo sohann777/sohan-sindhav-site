@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .hero {
@@ -14,18 +14,26 @@
   
   nav {
     display: flex;
-    width: 84%;
+    width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
+    
     align-items: center;
     justify-content: space-between;
+    background-color: #dffbff;
   }
   img {
     width: 250px;
     nav-up: inherit;
     border-radius: 1%;
     
+    
   
+  }
+  .logoc{
+    
+    width: 100px;
+    
   }
   
   .logo{ 
@@ -62,107 +70,70 @@
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    background-color: #b2ebf5;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    border-radius: 30px;
+  }
+
+  nav ul li:hover{
+    background-color: #8ae8f4;
   }
   nav ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(43, 43, 43);
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
   }
   nav ul li a:hover {
     cursor: pointer;
   }
   body {
-      font-family: monospace;
-      background-color: black;
-      color: #eff4fd;
+     
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+     
   }
   
-  .underline-hover-effect{
-      display: inline-block;
-      padding-bottom: 0.25rem;
-      position:relative;
   
-  }
-  .underline-hover-effect::before{
-      content:"";
-      position: absolute;
-      left: 0;
-      /* right: 0; */
-      bottom: 0;
-      width: 0%;
-      height: 2px;
-      background-color: rgb(0, 95, 249);
-      background-image: linear-gradient(to right, blue ,rgb(0, 120, 255), rgb(0, 179, 255));
-      transition: width 0.25s ease-out;
-  }
   
-  .underline-hover-effect:hover::before{
-      width: 100%;
-      left: 0;
-      right:auto;
-  }
+  
+ 
   
   .details{
-      margin-left: 8%;
-      margin-top: 15%;
+      margin-left: 6%;
+      margin-top: 13%;
+      font-family: 'Montserrat', sans-serif;
+      background-color: bisque;
+      width: 350px;
+      padding: 70px;
+      text-align: center;
+      line-height: 100px;
+      border-radius: 20px;
+      margin-left: 3%;
       
+         
   }
-  *{margin:0;padding:0;}
-  .details{width:1%;}
-  .gradient{ font-family:"Abril Fatface", sans-serif;
-      background: linear-gradient(to right, rgb(0,179,255),rgb(196, 223, 255),rgb(0,179,255));
-      background-size: 200% 200%;
-      animation: rainbow 2s ease-in-out infinite;
-      background-clip: text;
-      -webkit-background-clip:text;
-      color:rgb(144, 212, 209);
-      font-size:50px;
-      width:40vw;
-      
-      display:block;
-      margin-left: 8%;
-        margin-top: 15%;
-        
-      transition: color .2s ease-in-out;
-      /* text-transform:uppercase; */
-      font-weight:900;
-     
-    }
-  
-  .gradient:hover{
-      color:rgba(0,0,0,0);
-  }
-  @keyframes rainbow { 
-      0%{background-position:left}
-      50%{background-position:right}
-      100%{background-position:left}
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-  
-  .other_info{
-      font-family: 'Bebas Neue', cursive;
-      font-size: 20px;
-      position: absolute;
-      margin-left: 22%;
-      margin-top: 3%;
-      transform: translate(-50%,-50%);
-      background-image: linear-gradient(gold,gold);
-      background-size: 100% 2px;
-      background-repeat: no-repeat;
-      background-position: 100% 0%;
-       transition: background-size .7s, background-position .5s ease-in-out;
-    }
-    
-    .other_info:hover {
-      background-size: 150% 150%;
-      background-position: 0% 1%;
-      transition: background-position .7s, background-size .5s ease-in-out;
-      text-decoration-color: black;
-      color: black;
-    }
 
-.cvc{
+  #wfm{
+
+    margin-left: 10%;
+    width: 100px;
+  }
+  
+  
+  
+  
+ 
+  
+ 
+  
+  
+    
+    
+
+/* .cvc{
     margin-left: 10%;
     margin-top: 6%;
     background-color: rgb(255, 241, 225);
@@ -175,13 +146,19 @@
 
 .cvc:hover{
     background-color: bisque;
-}
+} */
 
 #cv{
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    padding: 10px;
     
     
+}
+
+#cv:hover{
+  background-color: rgb(255, 255, 234);
 }
   
