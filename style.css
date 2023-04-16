@@ -23,16 +23,22 @@
     background-color: #dffbff;
   }
   img {
-    width: 250px;
+   
     nav-up: inherit;
-    border-radius: 1%;
+    border-radius: 10%;
+    margin: 0px;
+    padding: 0px;
+    
+    
     
     
   
   }
   .logoc{
-    
-    width: 100px;
+    width: 70px;
+    margin: 0px;
+    margin-left: 15px;
+   
     
   }
   
@@ -45,6 +51,7 @@
       -webkit-transition-property: all; 
       -webkit-transition-duration: 0.1s; 
       -webkit-transition-timing-function: ease; 
+      margin: 0px;
       } 
       
       /* change the number below to scale to the appropriate size 
@@ -101,55 +108,45 @@
   
  
   
-  .details{
-      margin-left: 6%;
-      margin-top: 13%;
-      font-family: 'Montserrat', sans-serif;
-      background-color: bisque;
-      width: 300px;
-      padding: 70px;
-      text-align: center;
-      line-height: 100px;
-      border-radius: 20px;
-      margin-left: 3%;
-      margin-right: 0px;
-     float: left;
-  }
+  
 
-  #wfm{
-    
-    
-  }
+  
   
   .container1{
-    background-color: #7d7d7d;
-    width: 100px%;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 50px;
+    
+    
   }
-  
-  
-  
- 
-  
- 
-  
-  
+  .name{
     
-    
+    width: 400px;
+        float: left;
+        height: 400px;
+        /* background: gray; */
+        margin: 100px;
+        text-align: center;
+        
+  }
 
-/* .cvc{
-    margin-left: 10%;
-    margin-top: 6%;
-    background-color: rgb(255, 241, 225);
-    width: 150px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px;
-    
-}
+  
 
-.cvc:hover{
-    background-color: bisque;
-} */
+  .img1{
+    width: 450px;
+        float: left;
+        /* height: 100px; */
+        /* background: yellow; */
+        /* margin: 100px; */
+        margin-top: 6%;
+        margin-left: 20%;
+      }
+
+  .h1{
+    margin-top: 35%;
+    font-size: 50px;
+  }
 
 #cv{
     text-decoration: none;
@@ -157,11 +154,8 @@
     font-family: 'Montserrat', sans-serif;
     border-radius: 50px;
     padding: 10px;
-    
-    
-}
+  }
 
 #cv:hover{
   background-color: rgb(255, 255, 234);
 }
-  
