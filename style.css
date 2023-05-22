@@ -131,6 +131,7 @@ nav ul li a {
 .skill-container ul {
   list-style: none;
   color: #fff;
+  margin: 0;
 }
 
 .skill-container h3 {
@@ -146,7 +147,7 @@ nav ul li a {
   background-color: #111111;
   padding: 20px;
   border-radius: 20px;
-  width: 245px;
+  width: 240px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
