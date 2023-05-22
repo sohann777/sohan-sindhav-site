@@ -1,6 +1,7 @@
 # sohan's portfolio
 
-this is my personal portfollio in making.
-currently working hard for it
+Personal Portfolio is on the way..
 
-currently learning new things
+working..🫡
+
+learning through projects like this.
