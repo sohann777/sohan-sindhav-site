@@ -45,7 +45,7 @@ nav ul li a {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 145%;
   z-index: -1;
   opacity: 0.1;
   top: 0;
@@ -75,7 +75,7 @@ nav ul li a {
     height: 380px;
   }
   .home-container::before {
-    height: 140%;
+    height: 168%;
   }
 }
 
@@ -151,4 +151,31 @@ nav ul li a {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+}
+
+@media screen and (min-width: 450px) {
+  .SC2 {
+    width: 95%;
+    align-items: center;
+  }
+
+  .project {
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.contact {
+  color: #fff;
+  /* border: 4px solid #6d81b848; */
+  border-radius: 20px;
+  /* background-color: #111111; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 20px;
 }
